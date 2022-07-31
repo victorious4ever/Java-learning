@@ -39,7 +39,13 @@ Better control of class attributes and methods
 Class attributes can be made read-only (if you only use the get method), or write-only (if you only use the set method)
 Flexible: the programmer can change one part of the code without affecting other parts
 Increased security of data
+Java Inheritance (Subclass and Superclass)
+In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
 
-
+subclass (child) - the class that inherits from another class
+superclass (parent) - the class being inherited from
+A public void is used as a function generally
 
 Use import to import in libaries if ur too lazy to write the actual code. 
+
+I dont really see the use of polymorphism so we wont be using it.
