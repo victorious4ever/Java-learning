@@ -10,3 +10,18 @@ Tip: The "Don't Repeat Yourself" (DRY) principle is about reducing the repetitio
 
 Classes and objects are the two main aspects of object-oriented programming. 
 A class is a template for objects, and an object is an instance of a class.
+In java you can also override variables
+public class Main {
+  int x = 39;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 40;
+    System.out.println(myObj.x);
+  }
+}
+In this example the compiler prints out 40 instead of 39 and gets overrided. 
+We are on constructors now (personally the most painful part understanding for me in c++ for some reason)
+A constructor in Java is a special method that is used to initialize objects. 
+The constructor is called when an object of a class is created. It can be used to set initial values for object attributes:
+
