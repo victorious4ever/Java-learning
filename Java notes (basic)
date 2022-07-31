@@ -25,3 +25,21 @@ We are on constructors now (personally the most painful part understanding for m
 A constructor in Java is a special method that is used to initialize objects. 
 The constructor is called when an object of a class is created. It can be used to set initial values for object attributes:
 
+final:	Attributes and methods cannot be overridden/modified
+static:	Attributes and methods belongs to the class, rather than an object
+abstract:	Can only be used in an abstract class, and can only be used on methods. The method does not have a body, for example abstract void run();. The body is provided by the subclass (inherited from). You will learn more about inheritance and abstraction in the Inheritance and Abstraction chapters
+transient:	Attributes and methods are skipped when serializing the object containing them
+synchronized:	Methods can only be accessed by one thread at a time
+volatile: The value of an attribute is not cached thread-locally, and is always read from the "main memory
+When you assign final to a variable
+It cannot be overrided
+Why would you use encapsalation?
+First of all it would be very useful in microsoft.
+Better control of class attributes and methods
+Class attributes can be made read-only (if you only use the get method), or write-only (if you only use the set method)
+Flexible: the programmer can change one part of the code without affecting other parts
+Increased security of data
+
+
+
+Use import to import in libaries if ur too lazy to write the actual code. 
